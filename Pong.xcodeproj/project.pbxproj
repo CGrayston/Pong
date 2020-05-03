@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF977EA7245E763F00BF1614 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF977EA6245E763F00BF1614 /* MenuViewController.swift */; };
 		FF9E1E70245E0A7600B77DB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9E1E6F245E0A7600B77DB0 /* AppDelegate.swift */; };
 		FF9E1E72245E0A7600B77DB0 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FF9E1E71245E0A7600B77DB0 /* GameScene.sks */; };
 		FF9E1E74245E0A7600B77DB0 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = FF9E1E73245E0A7600B77DB0 /* Actions.sks */; };
@@ -17,6 +18,7 @@
 		FF9E1E80245E0A7800B77DB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF9E1E7E245E0A7800B77DB0 /* LaunchScreen.storyboard */; };
 		FF9E1E8B245E0A7800B77DB0 /* PongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9E1E8A245E0A7800B77DB0 /* PongTests.swift */; };
 		FF9E1E96245E0A7800B77DB0 /* PongUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9E1E95245E0A7800B77DB0 /* PongUITests.swift */; };
+		FFC0219D245E4B0F008C50A4 /* LLPIXEL3.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FFC0219C245E4B0F008C50A4 /* LLPIXEL3.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF977EA6245E763F00BF1614 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		FF9E1E6C245E0A7600B77DB0 /* Pong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF9E1E6F245E0A7600B77DB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF9E1E71245E0A7600B77DB0 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -53,6 +56,7 @@
 		FF9E1E91245E0A7800B77DB0 /* PongUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PongUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF9E1E95245E0A7800B77DB0 /* PongUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PongUITests.swift; sourceTree = "<group>"; };
 		FF9E1E97245E0A7800B77DB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFC0219C245E4B0F008C50A4 /* LLPIXEL3.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LLPIXEL3.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,7 @@
 		FF9E1E6E245E0A7600B77DB0 /* Pong */ = {
 			isa = PBXGroup;
 			children = (
+				FFC0219C245E4B0F008C50A4 /* LLPIXEL3.ttf */,
 				FF9E1E6F245E0A7600B77DB0 /* AppDelegate.swift */,
 				FF9E1E71245E0A7600B77DB0 /* GameScene.sks */,
 				FF9E1E73245E0A7600B77DB0 /* Actions.sks */,
@@ -112,6 +117,7 @@
 				FF9E1E7C245E0A7800B77DB0 /* Assets.xcassets */,
 				FF9E1E7E245E0A7800B77DB0 /* LaunchScreen.storyboard */,
 				FF9E1E81245E0A7800B77DB0 /* Info.plist */,
+				FF977EA6245E763F00BF1614 /* MenuViewController.swift */,
 			);
 			path = Pong;
 			sourceTree = "<group>";
@@ -239,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF9E1E7B245E0A7600B77DB0 /* Main.storyboard in Resources */,
+				FFC0219D245E4B0F008C50A4 /* LLPIXEL3.ttf in Resources */,
 				FF9E1E72245E0A7600B77DB0 /* GameScene.sks in Resources */,
 				FF9E1E7D245E0A7800B77DB0 /* Assets.xcassets in Resources */,
 				FF9E1E80245E0A7800B77DB0 /* LaunchScreen.storyboard in Resources */,
@@ -270,6 +277,7 @@
 				FF9E1E76245E0A7600B77DB0 /* GameScene.swift in Sources */,
 				FF9E1E78245E0A7600B77DB0 /* GameViewController.swift in Sources */,
 				FF9E1E70245E0A7600B77DB0 /* AppDelegate.swift in Sources */,
+				FF977EA7245E763F00BF1614 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +453,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2P8CC25627;
 				INFOPLIST_FILE = Pong/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -463,6 +472,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2P8CC25627;
 				INFOPLIST_FILE = Pong/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
